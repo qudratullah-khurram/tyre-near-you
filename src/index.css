@@ -152,6 +152,7 @@ img {
 }
 
 @media (max-width: 768px) {
+  /* ===== NAVBAR ===== */
   .navbar {
     flex-direction: column;
     height: auto;
@@ -176,5 +177,23 @@ img {
     display: flex;
     gap: 15px;
     margin-top: 6px;
+  }
+
+  /* ===== HERO (MOBILE-FIRST) ===== */
+  .hero-img {
+    height: 35vh;
+  }
+
+  .hero-content {
+    position: static;
+    margin: 16px;
+  }
+
+  /* ===== BUTTONS ===== */
+  .btn {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
   }
 }
