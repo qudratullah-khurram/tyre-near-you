@@ -4,6 +4,12 @@ body {
   color: #222;
 }
 
+/* ===== GLOBAL IMAGE FIX (ADD THIS) ===== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ===== NAVBAR ===== */
 .navbar {
   height: 64px;
@@ -62,7 +68,6 @@ body {
   color: #ff7a00;
 }
 
-
 .hero {
   position: relative;
 }
@@ -120,6 +125,7 @@ body {
   text-align: center;
   padding: 20px;
 }
+
 .about {
   padding: 50px 20px;
   max-width: 900px;
@@ -143,4 +149,32 @@ body {
   background: #f9f9f9;
   padding: 15px;
   border-left: 4px solid #ff7a00;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-left img {
+    width: 200px;
+  }
+
+  .nav-center {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  .nav-right {
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 6px;
+  }
 }
