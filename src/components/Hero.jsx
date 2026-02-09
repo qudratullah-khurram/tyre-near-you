@@ -9,7 +9,7 @@ function Hero() {
         <h1>Mobile Tyre Emergency Service</h1>
         <p>
           We connect you with the nearest mobile tyre service —
-          fast help, wherever you are in the England.
+          fast help, wherever you are in England.
         </p>
 
         <div className="hero-buttons">
