@@ -1,3 +1,4 @@
+//Footer
 function Footer() {
   return (
     <footer id="contact" className="footer">

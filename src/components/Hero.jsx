@@ -1,3 +1,4 @@
+//Hero.jsx
 import hero from '../assets/Hero.jpg'
 
 function Hero() {
@@ -13,11 +14,11 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="tel:+447960389599" className="btn primary">
+          <a href="tel:+447897760073" className="btn primary">
             Call Now
           </a>
           <a
-            href="https://wa.me/447960389599"
+            href="https://wa.me/447897760073"
             className="btn secondary"
             target="_blank"
             rel="noopener noreferrer"

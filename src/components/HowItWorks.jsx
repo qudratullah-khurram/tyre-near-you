@@ -1,3 +1,4 @@
+//HowItWorks
 function HowItWorks() {
   return (
     <section id="how" className="how">

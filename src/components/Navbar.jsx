@@ -1,3 +1,4 @@
+//Navbar
 import logo from '../assets/Logo.png'
 
 function Navbar() {
