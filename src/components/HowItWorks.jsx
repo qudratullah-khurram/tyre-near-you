@@ -16,8 +16,8 @@ function HowItWorks() {
         </div>
 
         <div className="step">
-          <h3>3. Job Done</h3>
-          <p>Payment is made in advance and help arrives fast.</p>
+          <h3>3. Help is on the Way</h3>
+          <p>Confirm your booking with a deposit and our van is dispatched immediately to your location</p>
         </div>
       </div>
     </section>

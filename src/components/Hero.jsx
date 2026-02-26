@@ -4,12 +4,18 @@ import hero from '../assets/Hero.jpg'
 function Hero() {
   return (
     <section className="hero">
-      <img src={hero} alt="Mobile tyre service" className="hero-img" />
+      <img src={hero} alt="Emergency Mobile Tyre Fitting" className="hero-img" />
 
       <div className="hero-content">
+        {/* Headline 1: Matches Ad intent */}
         <h1>Mobile Tyre Emergency Service</h1>
-        <p>
-          We connect you with the nearest mobile tyre service —
+        <p className="hero-subheadline">
+          <strong>We Come To You - 24/7 Service.</strong><br />
+          At Your Location in 30-60 Mins
+        </p>
+        
+        <p className="hero-description">
+          We connect you with the nearest mobile tyre service — 
           fast help, wherever you are in England.
         </p>
 
